@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "escolha-de-modelo-positive",
+      "skill": "escolha-de-modelo",
+      "prompt": "Qual modelo eu uso para refatorar este repositório com o melhor custo-benefício?",
+      "shouldActivate": true,
+      "expected": [
+        "Seleciona escolha-de-modelo e aplica a rota dentro da plataforma aberta.",
+        "Prefere o degrau mais barato dessa família que termina o trabalho e só sobe o esforço com motivo."
+      ]
+    },
+    {
+      "id": "escolha-de-modelo-paraphrase",
+      "skill": "escolha-de-modelo",
+      "prompt": "Tenho um pacote enorme de PDFs e um vídeo. Quero a melhor resposta pelo que vou gastar.",
+      "shouldActivate": true,
+      "expected": [
+        "No Grok fica no Grok, no Codex fica no GPT e no Antigravity fica no Google, mesmo com PDF e vídeo.",
+        "Não interrompe o pedido para perguntar qual marca de modelo usar e não manda trocar de IDE."
+      ]
+    },
+    {
+      "id": "escolha-de-modelo-negative",
+      "skill": "escolha-de-modelo",
+      "prompt": "Formata esta lista de compras em uma tabela Markdown.",
+      "shouldActivate": false,
+      "expected": [
+        "Não abre o guia de modelos para uma formatação local.",
+        "Entrega a tabela direto."
+      ]
+    },
+    {
+      "id": "escolha-de-modelo-logs",
+      "skill": "escolha-de-modelo",
+      "prompt": "Mostre a tabela de logs da escolha de modelo com o pedido, o que foi analisado, a sugestão e o par utilizado.",
+      "shouldActivate": true,
+      "expected": [
+        "Aponta para ~/.escolha-de-modelo/rotas.md e rotas.jsonl, gravados pelo Grok, Codex, Claude Code e Antigravity.",
+        "A tabela tem plataforma, pedido, análise, modelo/esforço sugeridos e modelo/esforço utilizados."
+      ]
+    }
+  ]
+}

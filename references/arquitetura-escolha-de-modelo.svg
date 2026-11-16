@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitetura da escolha de modelo</title>
+  <desc id="desc">Da mensagem na IDE até o modelo e o esforço, sem trocar de ferramenta.</desc>
+  <rect width="1600" height="980" fill="#f4f1ea"/>
+  <text x="48" y="52" fill="#1c2430" font-family="Segoe UI, sans-serif" font-size="28" font-weight="700">Arquitetura da escolha de modelo</text>
+  <text x="48" y="82" fill="#3d4a5c" font-family="Segoe UI, sans-serif" font-size="16">A IDE fica na própria família. A cota de tokens da mensalidade escolhe. O preço de API não escolhe.</text>
+
+  <g font-family="Segoe UI, sans-serif" fill="#1c2430">
+    <rect x="40" y="114" width="250" height="92" rx="12" fill="#ffffff" stroke="#1f4e79" stroke-width="2"/>
+    <text x="56" y="148" font-size="16" font-weight="700">1. Mensagem</text>
+    <text x="56" y="174" font-size="14">A IDE que já está aberta</text>
+
+    <rect x="330" y="114" width="280" height="92" rx="12" fill="#ffffff" stroke="#1f4e79" stroke-width="2"/>
+    <text x="346" y="148" font-size="16" font-weight="700">2. Regra global</text>
+    <text x="346" y="174" font-size="14">AGENTS, CLAUDE, GEMINI, Codex</text>
+
+    <rect x="650" y="114" width="250" height="92" rx="12" fill="#ffffff" stroke="#1f4e79" stroke-width="2"/>
+    <text x="666" y="148" font-size="16" font-weight="700">3. Cinco passos</text>
+    <text x="666" y="174" font-size="14">Linha Rota no início da resposta</text>
+
+    <rect x="940" y="114" width="320" height="92" rx="12" fill="#e7eef6" stroke="#1f4e79" stroke-width="2"/>
+    <text x="956" y="148" font-size="16" font-weight="700">4. Tabela de aplicação</text>
+    <text x="956" y="174" font-size="14">aplicacao-modelos-esforco.md</text>
+    <text x="956" y="194" font-size="14">Primeira situação que cabe</text>
+
+    <polygon points="290,160 330,160 318,154 318,166" fill="#1f4e79"/>
+    <line x1="290" y1="160" x2="330" y2="160" stroke="#1f4e79" stroke-width="2"/>
+    <line x1="610" y1="160" x2="650" y2="160" stroke="#1f4e79" stroke-width="2"/>
+    <polygon points="650,160 638,154 638,166" fill="#1f4e79"/>
+    <line x1="900" y1="160" x2="940" y2="160" stroke="#1f4e79" stroke-width="2"/>
+    <polygon points="940,160 928,154 928,166" fill="#1f4e79"/>
+  </g>
+
+  <g font-family="Segoe UI, sans-serif" fill="#1c2430">
+    <rect x="40" y="250" width="480" height="150" rx="12" fill="#ffffff" stroke="#1f4e79" stroke-width="2"/>
+    <text x="56" y="282" font-size="16" font-weight="700">Se esta sessão termina</text>
+    <text x="56" y="310" font-size="15">Fica no modelo aberto.</text>
+    <text x="56" y="334" font-size="15">Aplica o esforço da linha.</text>
+    <text x="56" y="358" font-size="15">Adapta o pedido à família.</text>
+    <text x="56" y="382" font-size="15">Faz o trabalho.</text>
+
+    <rect x="560" y="250" width="480" height="150" rx="12" fill="#ffffff" stroke="#1f4e79" stroke-width="2"/>
+    <text x="576" y="282" font-size="16" font-weight="700">Se não termina</text>
+    <text x="576" y="310" font-size="15">Sobe um nível de esforço no mesmo modelo.</text>
+    <text x="576" y="334" font-size="15">Só se o nível de baixo não fechar.</text>
+    <text x="576" y="358" font-size="15">O par fica na família da IDE.</text>
+    <text x="576" y="382" font-size="15">Seletor diferente: a linha fica pedido.</text>
+
+    <rect x="1080" y="250" width="480" height="150" rx="12" fill="#ffffff" stroke="#8a5a00" stroke-width="2"/>
+    <text x="1096" y="282" font-size="16" font-weight="700">O que a escolha não faz</text>
+    <text x="1096" y="310" font-size="15">Não troca de IDE.</text>
+    <text x="1096" y="334" font-size="15">Não gasta crédito para comparar.</text>
+    <text x="1096" y="358" font-size="15">Não pergunta qual marca usar.</text>
+    <text x="1096" y="382" font-size="15">Não trata o Codex como modelo.</text>
+  </g>
+
+  <text x="48" y="444" fill="#1c2430" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Degrau médio quando a IDE é que escolhe</text>
+
+  <g font-family="Segoe UI, sans-serif" fill="#1c2430">
+    <rect x="40" y="464" width="240" height="118" rx="10" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="54" y="492" font-size="15" font-weight="700">Antigravity</text>
+    <text x="54" y="516" font-size="14">Gemini 4 Argon</text>
+    <text x="54" y="538" font-size="14">thinking medium</text>
+    <text x="54" y="560" font-size="14">sobe: thinking high</text>
+
+    <rect x="296" y="464" width="240" height="118" rx="10" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="310" y="492" font-size="15" font-weight="700">Codex</text>
+    <text x="310" y="516" font-size="14">GPT-6.1 Sol</text>
+    <text x="310" y="538" font-size="14">esforço padrão</text>
+    <text x="310" y="560" font-size="14">topo: GPT-6 Astra</text>
+
+    <rect x="552" y="464" width="240" height="118" rx="10" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="566" y="492" font-size="15" font-weight="700">Claude Code</text>
+    <text x="566" y="516" font-size="14">Sonnet 5.5, high</text>
+    <text x="566" y="538" font-size="14">sobe: Opus 5.5 medium</text>
+    <text x="566" y="560" font-size="14">longa: Fable 5.1 high</text>
+
+    <rect x="808" y="464" width="240" height="118" rx="10" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="822" y="492" font-size="15" font-weight="700">Grok Build</text>
+    <text x="822" y="516" font-size="14">Grok 4.7, high</text>
+    <text x="822" y="538" font-size="14">sobe: xhigh uma vez</text>
+    <text x="822" y="560" font-size="14">Fast só por latência</text>
+
+    <rect x="1064" y="464" width="240" height="118" rx="10" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="1078" y="492" font-size="15" font-weight="700">Cursor</text>
+    <text x="1078" y="516" font-size="14">família já selecionada</text>
+    <text x="1078" y="538" font-size="14">esforço dessa família</text>
+    <text x="1078" y="560" font-size="14">Grok Fast existe aqui</text>
+
+    <rect x="1320" y="464" width="240" height="118" rx="10" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="1334" y="492" font-size="15" font-weight="700">App Muse</text>
+    <text x="1334" y="516" font-size="14">objetivo e conclusão</text>
+    <text x="1334" y="538" font-size="14">aprovação em e-mail</text>
+    <text x="1334" y="560" font-size="14">sobe: Muse Wonder</text>
+  </g>
+
+  <text x="48" y="628" fill="#1c2430" font-family="Segoe UI, sans-serif" font-size="18" font-weight="700">Onde cada fato mora</text>
+  <g font-family="Segoe UI, sans-serif" fill="#1c2430">
+    <rect x="40" y="648" width="490" height="150" rx="12" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="56" y="680" font-size="16" font-weight="700">SKILL.md</text>
+    <text x="56" y="706" font-size="15">Cinco passos e rota curta.</text>
+    <text x="56" y="730" font-size="15">Gasta menos tokens da cota.</text>
+    <text x="56" y="754" font-size="15">Sobe o esforço só se o de baixo</text>
+    <text x="56" y="778" font-size="15">não fechar a tarefa.</text>
+
+    <rect x="555" y="648" width="490" height="150" rx="12" fill="#e7eef6" stroke="#1f4e79"/>
+    <text x="571" y="680" font-size="16" font-weight="700">aplicacao-modelos-esforco.md</text>
+    <text x="571" y="706" font-size="15">Situação, modelo, esforço e IDE.</text>
+    <text x="571" y="730" font-size="15">Escada de cada modelo.</text>
+    <text x="571" y="754" font-size="15">Fornecedor que só entra</text>
+    <text x="571" y="778" font-size="15">quando a restrição é a da linha.</text>
+
+    <rect x="1070" y="648" width="490" height="150" rx="12" fill="#ffffff" stroke="#1f4e79"/>
+    <text x="1086" y="680" font-size="16" font-weight="700">guia-unificado.md</text>
+    <text x="1086" y="706" font-size="15">Cota da mensalidade e a data.</text>
+    <text x="1086" y="730" font-size="15">Preço de API fica fora da rota.</text>
+    <text x="1086" y="754" font-size="15">Origem das três conversas.</text>
+    <text x="1086" y="778" font-size="15">Contrato e calibração.</text>
+  </g>
+
+  <text x="48" y="840" fill="#3d4a5c" font-family="Segoe UI, sans-serif" font-size="14">Instruções atualizadas em 11 de novembro de 2026: home AGENTS.md e CLAUDE.md, .antigravity, .codex/AGENTS.md, .claude/CLAUDE.md e .gemini/config/GEMINI.md.</text>
+  <text x="48" y="868" fill="#3d4a5c" font-family="Segoe UI, sans-serif" font-size="14">A cota em tokens desta conta ainda não foi lida em /usage. As páginas dos planos não publicam esse número.</text>
+  <text x="48" y="920" fill="#1c2430" font-family="Segoe UI, sans-serif" font-size="15">A régua é o volume de tokens da cota. O preço de API não escolhe o par.</text>
+</svg>
